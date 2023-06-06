@@ -9,6 +9,8 @@ cargo build --release
 espflash flash --monitor  --partition-table partitions.csv --erase-parts nvs target\riscv32imc-unknown-none-elf\release\esp32c3_ble_provisioning
 ```
 
+In the app choose `I don't have a QR code` and then remove the prefix for discovery.
+
 ## TODO
 
 - [ ] really implement the protocol (but should already work with the [Android app](https://play.google.com/store/apps/details?id=com.espressif.provble))
